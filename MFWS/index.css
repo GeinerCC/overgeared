@@ -1,0 +1,87 @@
+
+h1, h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+ 
+#GOAT{
+     text-decoration-line: underline;
+}
+
+button{
+    background-color: black;
+    font-size: 1.5em;
+
+    border: 1px solid rgba (0,0,0,0);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header {
+    background: linear-gradient(to bottom, #000000, #2e003e, #6a0dad);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: purple;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+#hero{
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background: linear-gradient(to bottom, #ffffff, #000000);
+
+    -webkit-text-fill-color: semitransparent;
+
+text-shadow:
+    0 2px 4px rgba(0,0,0,0.6);
+
+
+    
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+         rgba(0,0,0,0.5)
+    )
+    , url("media/V6.jpg");
+    border-image-width: 10cm;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center, center;
+}
